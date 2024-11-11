@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import './App.css';
+import { slide as Menu } from 'react-burger-menu';
 
 import Customer from "./components/Customer";
 import Delivery from "./components/Delivery";
