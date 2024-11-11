@@ -1,28 +1,24 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import './App.css';
 
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Works from "./components/Works";
+import Customer from "./components/Customer";
+import Delivery from "./components/Delivery";
+import Shop from "./components/Shop";
 
 function App() {
   return (
 <BrowserRouter>
       <div className="App">
-        <Link to="/">Home</Link>
+        <Link to="/">Customer</Link>
         <br />
-        <Link to="/about">About</Link>
+        <Link to="/Shop">Shop</Link>
         <br />
-        <Link to="/works">Works</Link>
-        <br />
-        <Link to="/contact">Contact</Link>
+        <Link to="/Delivery">Delivery</Link>
         <br />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/works/" element={<Works />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Customer />} />
+          <Route path="/Delivery/" element={<Delivery />} />
+          <Route path="/Shop" element={<Shop />} />
         </Routes>
         {/* <Footer /> */}
       </div>
