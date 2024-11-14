@@ -1,4 +1,4 @@
-import Menu from "./Menu";
+import Menu from "./Barger";
 import MenuIcon from '@mui/icons-material/Menu';
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 

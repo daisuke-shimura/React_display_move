@@ -6,7 +6,6 @@ import Drawer from '@mui/material/Drawer';
 import Customer from "./components/Customer";
 import Delivery from "./components/Delivery";
 import Shop from "./components/Shop";
-import Menu from "./components/Menu";
 import MenuIcon from '@mui/icons-material/Menu';
 
 function App() {
